@@ -1,6 +1,6 @@
 Main program: rhinoChatbot.py
 
-Have all files in same folder, change the path accordingly inside the main program before running it.
+Have all these files in same folder, change the path accordingly inside the main program before running it.
 
 std.start-up.xml - Startup file which loads all AIML files for the chatbot to learn all categories and develop a brain.
 
