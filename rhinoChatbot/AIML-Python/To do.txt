@@ -1,0 +1,6 @@
+Implement skip descriptive instructions after first time
+Count number of shapes created and provide ID
+Compound the actions by taking all information in single go
+Include negative input values
+Keep track of created models
+Prevent move, rotate and scale before creation

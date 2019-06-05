@@ -1,0 +1,639 @@
+<aiml version="1.0" encoding="UTF-8">
+
+    <category>
+        <pattern>SCALE _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 2.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 2.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ BY _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 7.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK SCALE _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 3.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK _ SCALE _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 7.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ BY _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 7.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE _ BY _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 4.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 2.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK SCALE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 3.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK _ SCALE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 7.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ BY _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 7.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE _ BY _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE _ SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>SCALE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE _ SPHERE BY _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>SCALE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ SPHERE BY _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>SCALE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE SPHERE BY _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE SPHERE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>SCALE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE SPHERE BY_</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>SCALE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ SPHERE BY _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE SPHERE</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 4.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 2.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK SCALE _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 3.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK _ SCALE _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 7.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ BY _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 7.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE _ BY _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE _ SPHERE</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            <srai>SCALE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE _ SPHERE BY _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ SPHERE</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            <srai>SCALE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ SPHERE BY _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE SPHERE</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            <srai>SCALE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE SPHERE BY _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE SPHERE _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            <srai>SCALE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE SPHERE BY_</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ SPHERE</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            <srai>SCALE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ SPHERE BY _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 4.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 2.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK SCALE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 3.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK _ SCALE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Alright. Please state by what factor do you want to make the sphere smaller or bigger in the following format:
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 7.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ BY _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 7.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE _ BY _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE _ SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>SCALE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE _ SPHERE BY _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>SCALE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ SPHERE BY _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>SCALE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE SPHERE BY _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE SPHERE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>SCALE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE SPHERE BY_</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>SCALE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _ SPHERE BY _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the scaling factor in my desired format for me to process it. And that is,
+            (bigger or smaller) by (scaling value) factor.
+            For example: bigger by factor 5.
+            Have a look at the console for the format and example.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* BY FACTOR *</pattern>
+        <that>_ FACTOR _ FORMAT _</that>
+        <template>
+            <think>
+                <set name="scaling"><star index="1"/></set>
+            </think>
+            <condition name="scaling" value="bigger">
+                <think>
+                    <set name="bigScale"><star index="2"/></set>
+                </think>
+                Ok, I will scale the sphere bigger by a factor of <get name="bigScale"></get>.
+            </condition>
+            <condition name="scaling" value="smaller">
+                <think>
+                    <set name="smallScale"><star index="2"/></set>
+                </think>
+                Ok, I will scale the sphere smaller by a factor of <get name="smallScale"></get>.
+            </condition>
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <that>OK I WILL SCALE THE SPHERE _ </that>
+        <template>
+            <random>
+                <li>Sphere has been scaled as desired now.</li>
+                <li>Yes, sphere is scaled as desired.</li>
+                <li>Ok, sphere is now scaled to a new size.</li>
+                <li>Sphere is now scaled to your desired size.</li>
+            </random>
+            What do you want to do next?
+        </template>
+    </category>
+
+</aiml>

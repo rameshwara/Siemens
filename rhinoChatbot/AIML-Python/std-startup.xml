@@ -1,0 +1,13 @@
+<aiml version="1.0" encoding="UTF-8">
+    <category>
+        <pattern>LOAD AIML B</pattern>
+        <template>
+            <!-- Load standard AIML set -->
+            <learn>basic.aiml</learn>
+            <learn>rhinoModelCreate.aiml</learn>
+            <learn>rhinoModelMove.aiml</learn>
+            <learn>rhinoModelRotate.aiml</learn>
+            <learn>rhinoModelScale.aiml</learn>
+        </template>
+    </category>
+</aiml>

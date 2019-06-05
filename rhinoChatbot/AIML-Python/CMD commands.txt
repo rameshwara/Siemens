@@ -1,0 +1,4 @@
+start Rhino.exe
+(use /MIN for minmized window and /MAX for maximized window before application name)
+
+taskkill /im "Rhino.exe"

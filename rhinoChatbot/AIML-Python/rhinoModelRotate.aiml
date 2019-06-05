@@ -1,0 +1,610 @@
+<aiml version="1.0" encoding="UTF-8">
+
+    <category>
+        <pattern>ROTATE _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Alright. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 90 in x
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Alright. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 90 in x
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _ BY _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK ROTATE _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Alright. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 45 in y
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK _ ROTATE _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Alright. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 45 in y
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ BY _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _ BY _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Sure. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 60 in y
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Alright. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 90 in x
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK ROTATE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Alright. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 45 in y
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK _ ROTATE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Alright. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 45 in y
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ BY _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _ BY _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _ SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>ROTATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _ SPHERE BY _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>ROTATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ SPHERE BY _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>ROTATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE SPHERE BY _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE SPHERE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>ROTATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE SPHERE BY_</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>ROTATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ SPHERE BY _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE SPHERE</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Sure. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 60 in y
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Alright. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 90 in x
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK ROTATE _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Alright. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 45 in y
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK _ ROTATE _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Alright. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 45 in y
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ BY _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _ BY _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _ SPHERE</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            <srai>ROTATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _ SPHERE BY _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ SPHERE</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            <srai>ROTATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ SPHERE BY _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE SPHERE</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            <srai>ROTATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE SPHERE BY _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE SPHERE _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            <srai>ROTATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE SPHERE BY_</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ SPHERE</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            <srai>ROTATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ SPHERE BY _</pattern>
+        <that>_ ROTATE _ SPHERE _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Sure. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 60 in y
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Alright. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 90 in x
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK ROTATE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Alright. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 45 in y
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK _ ROTATE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Alright. Please state the angle and direction in the following format:
+            (Angle) in (direction - x, y or z).
+            For example: 45 in y
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ BY _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _ BY _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _ SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>ROTATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _ SPHERE BY _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>ROTATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ SPHERE BY _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>ROTATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE SPHERE BY _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE SPHERE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>ROTATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE SPHERE BY_</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>ROTATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _ SPHERE BY _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the angle in my desired format for me to process it. And that is,
+            (Angle) in (direction - x, y or z).
+            For example: 30 in z
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IN X</pattern>
+        <that>_ ANGLE _ FORMAT _</that>
+        <template>
+            <think>
+                <set name="xRotation"><star/></set>
+            </think>
+            Ok, the sphere will be rotated by <get name="xRotation"></get> degrees along x-direction.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IN Y</pattern>
+        <that>_ ANGLE _ FORMAT _</that>
+        <template>
+            <think>
+                <set name="yRotation"><star/></set>
+            </think>
+            Ok, the sphere will be rotated by <get name="yRotation"></get> degrees along y-direction.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* IN Z</pattern>
+        <that>_ ANGLE _ FORMAT _</that>
+        <template>
+            <think>
+                <set name="zRotation"><star/></set>
+            </think>
+            Ok, the sphere will be rotated by <get name="zRotation"></get> degrees along z-direction.
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <that>OK THE SPHERE WILL BE ROTATED _</that>
+        <template>
+            <random>
+                <li>Sphere has been rotated now.</li>
+                <li>Yes, sphere is rotated as desired.</li>
+                <li>Ok, sphere has been rotated to the new orientation now.</li>
+                <li>Sphere has been rotated to your desired orientation.</li>
+            </random>
+            What do you want to do next?
+        </template>
+    </category>
+
+</aiml>

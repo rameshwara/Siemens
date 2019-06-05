@@ -1,0 +1,562 @@
+<aiml version="1.0" encoding="UTF-8">
+
+    <category>
+        <pattern>MOVE _</pattern>
+        <that>_ I _ DESIGNED _ CREATE _</that>
+        <template>
+            Please create something first.
+            <random>
+                <li>So, what is up in your mind?</li>
+                <li>What do you want to create?</li>
+                <li>What do you want me to create?</li>
+            </random>
+            I am designed to create: (a) Sphere (b) Cuboid...
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _</pattern>
+        <that>_ I _ DESIGNED _ CREATE _</that>
+        <template>
+            Please create something first.
+            <random>
+                <li>So, what is up in your mind?</li>
+                <li>What do you want to create?</li>
+                <li>What do you want me to create?</li>
+            </random>
+            I am designed to create: (a) Sphere (b) Cuboid...
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _</pattern>
+        <that>_ I _ DESIGNED _ CREATE _</that>
+        <template>
+            Please create something first.
+            <random>
+                <li>So, what is up in your mind?</li>
+                <li>What do you want to create?</li>
+                <li>What do you want me to create?</li>
+            </random>
+            I am designed to create: (a) Sphere (b) Cuboid...
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _</pattern>
+        <that>_ I _ DESIGNED _ CREATE _</that>
+        <template>
+            Please create something first.
+            <random>
+                <li>So, what is up in your mind?</li>
+                <li>What do you want to create?</li>
+                <li>What do you want me to create?</li>
+            </random>
+            I am designed to create: (a) Sphere (b) Cuboid...
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE _</pattern>
+        <that>_ I _ DESIGNED _ CREATE _</that>
+        <template>
+            Please create something first.
+            <random>
+                <li>So, what is up in your mind?</li>
+                <li>What do you want to create?</li>
+                <li>What do you want me to create?</li>
+            </random>
+            I am designed to create: (a) Sphere (b) Cuboid...
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _</pattern>
+        <that>_ I _ DESIGNED _ CREATE _</that>
+        <template>
+            Please create something first.
+            <random>
+                <li>So, what is up in your mind?</li>
+                <li>What do you want to create?</li>
+                <li>What do you want me to create?</li>
+            </random>
+            I am designed to create: (a) Sphere (b) Cuboid...
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE _</pattern>
+        <that>_ HOW CAN I HELP YOU</that>
+        <template>
+            Please create something first.
+            <random>
+                <li>So, what is up in your mind?</li>
+                <li>What do you want to create?</li>
+                <li>What do you want me to create?</li>
+            </random>
+            I am designed to create: (a) Sphere (b) Cuboid...
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _</pattern>
+        <that>_ HOW CAN I HELP YOU</that>
+        <template>
+            Please create something first.
+            <random>
+                <li>So, what is up in your mind?</li>
+                <li>What do you want to create?</li>
+                <li>What do you want me to create?</li>
+            </random>
+            I am designed to create: (a) Sphere (b) Cuboid...
+        </template>
+    </category>
+
+    <category>
+        <pattern>ROTATE _</pattern>
+        <that>_ HOW CAN I HELP YOU</that>
+        <template>
+            Please create something first.
+            <random>
+                <li>So, what is up in your mind?</li>
+                <li>What do you want to create?</li>
+                <li>What do you want me to create?</li>
+            </random>
+            I am designed to create: (a) Sphere (b) Cuboid...
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ ROTATE _</pattern>
+        <that>_ HOW CAN I HELP YOU</that>
+        <template>
+            Please create something first.
+            <random>
+                <li>So, what is up in your mind?</li>
+                <li>What do you want to create?</li>
+                <li>What do you want me to create?</li>
+            </random>
+            I am designed to create: (a) Sphere (b) Cuboid...
+        </template>
+    </category>
+
+    <category>
+        <pattern>SCALE _</pattern>
+        <that>_ HOW CAN I HELP YOU</that>
+        <template>
+            Please create something first.
+            <random>
+                <li>So, what is up in your mind?</li>
+                <li>What do you want to create?</li>
+                <li>What do you want me to create?</li>
+            </random>
+            I am designed to create: (a) Sphere (b) Cuboid...
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SCALE _</pattern>
+        <that>_ HOW CAN I HELP YOU</that>
+        <template>
+            Please create something first.
+            <random>
+                <li>So, what is up in your mind?</li>
+                <li>What do you want to create?</li>
+                <li>What do you want me to create?</li>
+            </random>
+            I am designed to create: (a) Sphere (b) Cuboid...
+        </template>
+    </category>
+
+    <category>
+        <pattern>SPHERE</pattern>
+        <that>_ I _ DESIGNED _ CREATE _</that>
+        <template>
+            <random>
+                <li>Sphere is it? Alright.</li>
+                <li>You want to create a sphere? Ok, as you wish.</li>
+                <li>Sphere? Sure.</li>
+            </random>
+            What should be the radius of the sphere? (Ignore the units.)
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SPHERE</pattern>
+        <that>_ I _ DESIGNED _ CREATE _</that>
+        <template>
+            <srai>SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SPHERE _</pattern>
+        <that>_ I _ DESIGNED _ CREATE _</that>
+        <template>
+            <srai>SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ SPHERE _</pattern>
+        <that>_ I _ DESIGNED _ CREATE _</that>
+        <template>
+            <srai>SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <that>_ WHAT _ RADIUS _ SPHERE _</that>
+        <template>
+            Ok. I will create sphere with radius <set name="sphereRadius"><star/></set>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <that>OK I WILL CREATE SPHERE _</that>
+        <template>
+            <random>
+                <li>Yes, sphere has been created</li>
+                <li>Ok, sphere has been created</li>
+                <li>Your desired sphere is now created</li>
+            </random>
+            What do you want to do next?
+        </template>
+    </category>
+
+    <category>
+        <pattern>SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Well, what do you want me to do?
+            Generate a sphere?
+            Move an existing sphere?
+            Rotate an existing sphere?
+            Scale an existing sphere?
+        </template>
+    </category>
+
+    <category>
+        <pattern>CREATE SPHERE</pattern>
+        <that>_ HOW CAN I HELP YOU</that>
+        <template>
+            <random>
+                <li>Sphere is it? Alright.</li>
+                <li>You want to create a sphere? Ok, as you wish.</li>
+                <li>Sphere? Sure.</li>
+            </random>
+            What should be the radius of the sphere? (Ignore the units.)
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CREATE _ SPHERE</pattern>
+        <that>_ HOW CAN I HELP YOU</that>
+        <template>
+            <srai>CREATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CREATE _ SPHERE</pattern>
+        <that>_ HOW CAN I HELP YOU</that>
+        <template>
+            <srai>CREATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CREATE SPHERE</pattern>
+        <that>_ HOW CAN I HELP YOU</that>
+        <template>
+            <srai>CREATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CREATE _ SPHERE _</pattern>
+        <that>_ HOW CAN I HELP YOU</that>
+        <template>
+            <srai>CREATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CREATE _ SPHERE _</pattern>
+        <that>_ HOW CAN I HELP YOU</that>
+        <template>
+            <srai>CREATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CREATE SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <random>
+                <li>Sphere is it? Alright.</li>
+                <li>You want to create a sphere? Ok, as you wish.</li>
+                <li>Sphere? Sure.</li>
+            </random>
+            What should be the radius of the sphere? (Ignore the units.)
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CREATE _ SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>CREATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CREATE _ SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>CREATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CREATE SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>CREATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CREATE _ SPHERE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>CREATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CREATE _ SPHERE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>CREATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GENERATE SPHERE</pattern>
+        <that>GENERATE _ SPHERE _</that>
+        <template>
+            Sphere generation. Alright.
+            What should be the radius of the sphere?(Ignore the units).
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>GENERATE</pattern>
+        <that>GENERATE _ SPHERE _</that>
+        <template>
+            <srai>GENERATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GENERATE _</pattern>
+        <that>GENERATE _ SPHERE _</that>
+        <template>
+            <srai>GENERATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GENERATE _ SPHERE</pattern>
+        <that>GENERATE _ SPHERE _</that>
+        <template>
+            <srai>GENERATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GENERATE _ SPHERE _</pattern>
+        <that>GENERATE _ SPHERE _</that>
+        <template>
+            <srai>GENERATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CUBOID</pattern>
+        <that>_ I _ DESIGNED _ CREATE _</that>
+        <template>
+            <random>
+                <li>Cuboid is it?</li>
+                <li>You want to create a Cuboid?</li>
+                <li>Cuboid?</li>
+            </random>
+            I am sorry, I am not yet trained for that.
+            So what do you want me to do next?
+        </template>
+    </category>
+
+    <category>
+        <pattern>CUBOID _</pattern>
+        <that>_ I _ DESIGNED _ CREATE _</that>
+        <template>
+            <srai>CUBOID</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CUBOID</pattern>
+        <that>_ I _ DESIGNED _ CREATE _</that>
+        <template>
+            <srai>CUBOID</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CUBOID _</pattern>
+        <that>_ I _ DESIGNED _ CREATE _</that>
+        <template>
+            <srai>CUBOID</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CUBOID</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            I am sorry, I am not yet trained to do anything with a cuboid.
+            So what do you want to do next?
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CUBOID</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>CUBOID</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CUBOID _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>CUBOID</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CUBOID _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>CUBOID</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Well, what do you want me to do?
+            Generate a sphere?
+            Move an existing sphere?
+            Rotate an existing sphere?
+            Scale an existing sphere?
+        </template>
+    </category>
+
+    <category>
+        <pattern>CREATE SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <random>
+                <li>Sphere is it? Alright.</li>
+                <li>You want to create a sphere? Ok, as you wish.</li>
+                <li>Sphere? Sure.</li>
+            </random>
+            What should be the radius of the sphere? (Ignore the units.)
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CREATE _ SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>CREATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CREATE _ SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>CREATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CREATE SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>CREATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CREATE _ SPHERE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>CREATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CREATE _ SPHERE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>CREATE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CUBOID</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            I am sorry, I am not yet trained to do anything with a cuboid.
+            So what do you want to do next?
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CUBOID</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>CUBOID</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CUBOID _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>CUBOID</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ CUBOID _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>CUBOID</srai>
+        </template>
+    </category>
+
+</aiml>

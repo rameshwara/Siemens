@@ -1,0 +1,577 @@
+<aiml version="1.0" encoding="UTF-8">
+
+    <category>
+        <pattern>MOVE _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Alright. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Alright. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE _ TO _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Please specify the position in my desired format for me to process it.
+            Specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK MOVE _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Alright. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK _ MOVE _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Alright. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _ TO _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Please specify the position in my desired format for me to process it.
+            Specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE _ TO _</pattern>
+        <that>_ SPHERE _ CREATED _</that>
+        <template>
+            Please specify the position in my desired format for me to process it.
+            Specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Alright. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Alright. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK MOVE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Alright. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK _ MOVE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Alright. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _ TO _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the position in my desired format for me to process it.
+            Specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE _ TO _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the position in my desired format for me to process it.
+            Specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE _ SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _ SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE SPHERE</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE _ SPHERE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE SPHERE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _ SPHERE _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE SPHERE _ TO _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the position in my desired format for me to process it.
+            Specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _ SPHERE _ TO _</pattern>
+        <that>_ WHAT _ NEXT</that>
+        <template>
+            Please specify the position in my desired format for me to process it.
+            Specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE SPHERE</pattern>
+        <that>_ MOVE _ SPHERE _</that>
+        <template>
+            Alright. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE _</pattern>
+        <that>_ MOVE _ SPHERE _</that>
+        <template>
+            Alright. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK MOVE _</pattern>
+        <that>_ MOVE _ SPHERE _</that>
+        <template>
+            Alright. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK _ MOVE _</pattern>
+        <that>_ MOVE _ SPHERE _</that>
+        <template>
+            Alright. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _ TO _</pattern>
+        <that>_ MOVE _ SPHERE _</that>
+        <template>
+            Please specify the position in my desired format for me to process it.
+            Specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE _ TO _</pattern>
+        <that>_ MOVE _ SPHERE _</that>
+        <template>
+            Please specify the position in my desired format for me to process it.
+            Specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE _ SPHERE</pattern>
+        <that>_ MOVE _ SPHERE _</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _ SPHERE</pattern>
+        <that>_ MOVE _ SPHERE _</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE SPHERE</pattern>
+        <that>_ MOVE _ SPHERE _</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE _ SPHERE _</pattern>
+        <that>_ MOVE _ SPHERE _</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE SPHERE _</pattern>
+        <that>_ MOVE _ SPHERE _</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _ SPHERE _</pattern>
+        <that>_ MOVE _ SPHERE _</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE SPHERE _ TO _</pattern>
+        <that>_ MOVE _ SPHERE _</that>
+        <template>
+            Please specify the position in my desired format for me to process it.
+            Specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _ SPHERE _ TO _</pattern>
+        <that>_ MOVE _ SPHERE _</that>
+        <template>
+            Please specify the position in my desired format for me to process it.
+            Specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Ok. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Alright. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK MOVE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Alright. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>OK _ MOVE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Alright. To what position?
+            Please specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _ TO _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the position in my desired format for me to process it.
+            Specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE _ TO _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the position in my desired format for me to process it.
+            Specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE _ SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _ SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE SPHERE</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE _ SPHERE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE SPHERE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _ SPHERE _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            <srai>MOVE SPHERE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOVE SPHERE _ TO _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the position in my desired format for me to process it.
+            Specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>_ MOVE _ SPHERE _ TO _</pattern>
+        <that>_ LET ME KNOW _</that>
+        <template>
+            Please specify the position in my desired format for me to process it.
+            Specify all 3 coordinates of the new position in the following format:
+            x is (position on x-axis) y is (position on y-axis) z is (position on z-axis)
+            Have a look at the console for the format again.
+            Note the white spaces and ignore the brackets.
+            My skills are limited to process only integer values.
+        </template>
+    </category>
+
+    <category>
+        <pattern>X IS * Y IS * Z IS *</pattern>
+        <that>_ POSITION _ FORMAT _</that>
+        <template>
+            <think>
+                <set name="xPosition"><star index="1"/></set>
+                <set name="yPosition"><star index="2"/></set>
+                <set name="zPosition"><star index="3"/></set>
+            </think>
+            Ok, the sphere will be moved to (x-<get name="xPosition"></get>, y-<get name="yPosition"></get>, z-<get name="zPosition"></get>).
+        </template>
+    </category>
+
+    <category>
+        <pattern>*</pattern>
+        <that>OK THE SPHERE WILL BE MOVED _</that>
+        <template>
+            <random>
+                <li>Sphere has been moved as desired now.</li>
+                <li>Yes, sphere is moved as desired.</li>
+                <li>Ok, sphere is now moved to a new position.</li>
+                <li>Sphere is now moved to your desired position.</li>
+            </random>
+            What do you want to do next?
+        </template>
+    </category>
+
+</aiml>
